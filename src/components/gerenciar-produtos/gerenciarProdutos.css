@@ -1,0 +1,44 @@
+.product-management-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-cards-grid{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+    transition: all 0.3s;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.product-card-delete-button{
+    border: none;
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    transition: all 0.3s;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.product-card-delete-button:hover{
+    box-shadow: 0px 0px 50px 0px rgba(255,255,255,0.7);
+}

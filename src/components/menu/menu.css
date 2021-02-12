@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background: rgb(2,0,36);
+    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(1,29,67,1) 9%, rgba(1,44,82,1) 30%, rgba(1,53,91,1) 40%, rgba(1,65,103,1) 53%, rgba(1,76,114,1) 100%, rgba(96,1,141,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.menu-header{
+    font-family: 'Play', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.menu-button{
+    font-family: 'Play', sans-serif;
+    width: 100%;
+    outline: none;
+    height: 50px;
+    background-color: #8c00a0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.menu-button:hover{
+    background-color: white;
+    color:  #8c00a0;
+}

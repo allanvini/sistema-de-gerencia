@@ -1,0 +1,82 @@
+.balance-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.params-container{
+    display: flex;
+    flex-direction: row;
+}
+.params-container input{
+    padding: 10px;
+    border: 1px solid teal;
+    outline: none;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.params-container span{
+    margin: 10px;
+}
+
+.balance-button{
+    background-color: teal;
+    width: 480px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.balance-button:hover{
+    box-shadow: 0,0, 10px, 10px rgba(0,0,0, .6);
+}
+
+.data-media-container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid teal;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.sell-cost-profit-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+}
+
+.sell-by-items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    width: 65%;
+    height: 20%;
+}
+.sell-by-items-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+}

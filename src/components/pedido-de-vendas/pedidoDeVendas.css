@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.new-sell{
+    font-family: Play;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.new-sell-form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.new-sell-input{
+    outline: none;
+    padding: 10px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.new-item-add-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-item-add-container span{
+    margin: 5px;
+}
+.new-item-add-container select{
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 3px;
+}
+
+.new-sell-items-list-container{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid teal;
+}
+
+.sell-item{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.delete-item-button{
+    background-color: teal;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.delete-item-button:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+.add-item-button{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 10px;
+}
+.add-item-button:hover{
+    background-color: rgb(0, 100, 0);
+}
+
+.new-sell-finish-button{
+    color: white;
+    background-color:rgb(0, 100, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 810px;
+    outline: none;
+    margin: 10px;
+}
+
+.sell-obs{
+    font-family: Play;
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+}
